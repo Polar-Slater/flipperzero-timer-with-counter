@@ -13,7 +13,11 @@ A countdown for repeated experiments. It starts at `00:05:00`. Set hours, minute
 | Hold OK | Clear the completed count while stopped or paused |
 | Back | Exit the app; an unfinished countdown is discarded |
 
-When a run finishes, the Flipper gives four short high beeps and vibrates, similar to [Count Down Timer by 0w0mewo](https://github.com/0w0mewo/fpz_cntdown_timer). The next run starts when you press OK, so time between experiments is not counted. A save error appears on screen if the SD card cannot store the count.
+When a run finishes, the Flipper gives four short high beeps and vibrates. The next run starts when you press OK, so time between experiments is not counted. A save error appears on screen if the SD card cannot store the count.
+
+## Credit
+
+The time-setting controls and completion alarm were adapted from [Count Down Timer by 0w0mewo](https://github.com/0w0mewo/fpz_cntdown_timer).
 
 ## Build
 
