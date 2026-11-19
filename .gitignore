@@ -1,0 +1,5 @@
+.ufbt/
+.tools/
+.tmp/
+.vscode/
+dist/debug/

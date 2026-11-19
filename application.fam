@@ -1,0 +1,10 @@
+App(
+    appid="experiment_timer",
+    name="Timer with counter",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="experiment_timer_main",
+    requires=["gui", "storage", "notification"],
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    fap_description="Five-minute experiment timer with a saved completion count",
+)
