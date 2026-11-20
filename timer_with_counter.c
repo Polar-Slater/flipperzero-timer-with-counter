@@ -7,7 +7,7 @@
 #include <stdio.h>
 
 #define DEFAULT_SECONDS (5U * 60U)
-#define MAX_HOURS 23U
+#define MAX_HOURS 99U
 #define COUNT_PATH APP_DATA_PATH("count.bin")
 #define COUNT_TMP_PATH APP_DATA_PATH("count.tmp")
 #define COUNT_MAGIC 0x45585054U
@@ -198,7 +198,7 @@ int32_t experiment_timer_main(void* context) {
                     uint32_t step = app.selected_field == 0 ? 3600U :
                                     app.selected_field == 1 ? 60U : 1U;
                     uint32_t field_value = (app.duration_seconds / step) %
-                                           (app.selected_field == 0 ? 24U : 60U);
+                                           (app.selected_field == 0 ? 100U : 60U);
                     uint32_t next = app.duration_seconds;
                     if(event.key == InputKeyUp &&
                        field_value < (app.selected_field == 0 ? MAX_HOURS : 59U)) {

@@ -1,6 +1,6 @@
 # Timer with counter for Flipper Zero
 
-A countdown for repeated experiments. It starts at `00:05:00`. Set hours, minutes, and seconds for any duration from one second to `23:59:59`. The **Completed** number increases only when a full countdown finishes. Both the count and selected duration are saved on the microSD card and restored when the app opens again.
+A countdown for repeated experiments. It starts at `00:05:00`. Set hours, minutes, and seconds for any duration from one second to `99:59:59`. The **Completed** number increases only when a full countdown finishes. Both the count and selected duration are saved on the microSD card and restored when the app opens again.
 
 ## Controls
 
